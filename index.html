@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversario Mi Amor ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Imagen de fondo -->
+    <div class="background-image"></div>
+    
+    <!-- Contenido principal -->
+    <div class="container">
+        <!-- Título -->
+        <h1 class="title">Feliz Aniversario Mi Amor</h1>
+        
+        <!-- Contador -->
+        <div class="countdown">
+            <p class="countdown-text">Mi amor por ti comenzó hace...</p>
+            <div class="time-display">
+                <div class="time-box">
+                    <span id="days" class="number">0</span>
+                    <span class="label">días</span>
+                </div>
+                <div class="time-box">
+                    <span id="hours" class="number">0</span>
+                    <span class="label">horas</span>
+                </div>
+                <div class="time-box">
+                    <span id="minutes" class="number">0</span>
+                    <span class="label">minutos</span>
+                </div>
+                <div class="time-box">
+                    <span id="seconds" class="number">0</span>
+                    <span class="label">segundos</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sobre interactivo -->
+        <div class="envelope-container">
+            <p class="instruction">Toca el sobre para abrir tu carta 💌</p>
+            <div class="envelope" id="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-body"></div>
+                <div class="heart">❤️</div>
+            </div>
+            
+            <!-- Carta -->
+            <div class="letter" id="letter">
+                <div class="letter-content">
+                    <h2>Para el amor de mi vida ❤️</h2>
+                    <p>Mi amor,</p>
+                    <p>Hoy celebramos un año más juntos, y cada día a tu lado es un regalo. Desde aquel 17 de febrero de 2023, mi vida cambió para siempre. Tú eres mi razón de sonreír, mi confidente, mi mejor amiga y mi amor eterno.</p>
+                    <p>Gracias por cada momento compartido, por tu amor incondicional, por tu paciencia, por tus abrazos que me hacen sentir en casa. Contigo he aprendido lo que es amar de verdad.</p>
+                    <p>Prometo amarte cada día más, cuidarte, hacerte feliz y estar a tu lado en cada paso del camino. Eres y serás siempre mi persona favorita.</p>
+                    <p>Te amo más de lo que las palabras pueden expresar.</p>
+                    <p class="signature">Con todo mi amor,<br>Para siempre tuyo/a 💕</p>
+                    <button class="close-letter" onclick="closeLetter()">Cerrar carta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
